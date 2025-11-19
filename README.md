@@ -20,4 +20,4 @@ Projeto final da disciplina de Desenvolvimento Web Front-End. O objetivo foi des
 3. Abra o arquivo `index.html` no seu navegador de preferência.
 
 ## 📝 Autor
-Desenvolvido por **Caio Silveira** como requisito avaliativo do curso de Desenvolvimento Web.
+Desenvolvido por **Caio Silveira** e **Samuel Luka** como requisito avaliativo do curso de Desenvolvimento Web.
