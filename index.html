@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Saúde e Bem-estar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">FitLife</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#calculadora">Calculadora IMC</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Transforme seu corpo, mude sua mente.</h1>
+                <p>Acompanhe sua saúde com nossas ferramentas gratuitas.</p>
+                <a href="#calculadora" class="btn">Calcular Agora</a>
+            </div>
+            <div class="hero-img">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Pessoa treinando na academia">
+            </div>
+        </section>
+
+        <section id="calculadora" class="container">
+            <h2>Calculadora de IMC</h2>
+            <div class="card">
+                <form id="imcForm">
+                    <div class="form-group">
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" id="nome" placeholder="Ex: Caio" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="altura">Altura (m):</label>
+                        <input type="number" id="altura" step="0.01" placeholder="Ex: 1.75" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="peso">Peso (kg):</label>
+                        <input type="number" id="peso" step="0.1" placeholder="Ex: 70.5" required>
+                    </div>
+
+                    <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+                </form>
+
+                <div id="resultado" class="resultado hidden">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FitLife - Projeto Final de Desenvolvimento Web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
